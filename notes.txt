@@ -17,6 +17,8 @@ $ git add -A      (for adding all changed files in staging area before commit)
 $ git commit -m "message"   (for committing something with a message)
 $ git add <specific file>   (for adding specific changed file in the staging area)
 $ git log    (for checking commit history)
+$ git commit -a -m "Direct Commit"  (it will commit for all the 'tracked files' skippong the staging area but it will not commit the 'utracked file')
+
 
 						KILLING REPO
 
