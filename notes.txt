@@ -1,0 +1,21 @@
+
+			FOR CONFIGURATION PURPOSES
+
+$ pwd
+$ git config --global user.name "Arpan"                
+$ git config --global user.email "arpanchowdhury050@gmail.com"    
+$ git config --list                  
+$ git config user.name               
+$ git config user.email
+
+
+
+$ git status     (for checking the status of git directory)
+$ git init  	 (for initialising empty git repo)
+$ git add -A      (for adding all changed files in staging area before commit)
+$ git commit -m "message"   (for committing something with a message)
+$ git add <specific file>   (for adding specific changed file in the staging area)
+$ git log    (for checking commit history)
+
+
+$ rm -rf .git  (for killing the git repo) 
