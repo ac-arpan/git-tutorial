@@ -1,5 +1,5 @@
 
-			FOR CONFIGURATION PURPOSES
+						FOR CONFIGURATION PURPOSES
 
 $ pwd
 $ git config --global user.name "Arpan"                
@@ -9,6 +9,7 @@ $ git config user.name
 $ git config user.email
 
 
+						WORKFLOW
 
 $ git status     (for checking the status of git directory)
 $ git init  	 (for initialising empty git repo)
@@ -17,5 +18,15 @@ $ git commit -m "message"   (for committing something with a message)
 $ git add <specific file>   (for adding specific changed file in the staging area)
 $ git log    (for checking commit history)
 
+						KILLING REPO
+
 
 $ rm -rf .git  (for killing the git repo) 
+
+								
+
+						GIT IGNORE
+
+$ touch .gitignore   (for creating the .gitignore file)
+		""" 1> *.log (ignore all .log files)
+		    2> <specific file> (ignore the specific file/folder)
