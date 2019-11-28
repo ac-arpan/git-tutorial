@@ -30,3 +30,10 @@ $ rm -rf .git  (for killing the git repo)
 $ touch .gitignore   (for creating the .gitignore file)
 		""" 1> *.log (ignore all .log files)
 		    2> <specific file> (ignore the specific file/folder)
+		    3>  paths can alos be added
+
+Git by-default ignore empty folder or files
+
+						GIT DIFFERENCES
+$ git diff       (compare working directory with the staging area)
+$ git diff --staged  (compare staging area with the previous commits)
