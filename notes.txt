@@ -44,4 +44,5 @@ $ git diff --staged  (compare staging area with the previous commits)
 
 						GIT FILE MANIPULATION
 
-$ git rm <filename>      (for deleting <file> and also adding it to the staging area)
+$ git rm <filename>  			(for deleting <file> and also adding it to the staging area)
+$ git mv <prev file name> <new file name>  (for renaming the file and also adding it to the staging area) 
