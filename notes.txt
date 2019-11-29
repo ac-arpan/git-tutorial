@@ -1,0 +1,64 @@
+
+						FOR CONFIGURATION PURPOSES
+
+$ pwd
+$ git config --global user.name "Arpan"                
+$ git config --global user.email "arpanchowdhury050@gmail.com"    
+$ git config --list                  
+$ git config user.name               
+$ git config user.email
+
+
+						WORKFLOW
+
+$ git status     (for checking the status of git directory)
+$ git init  	 (for initialising empty git repo)
+$ git add -A      (for adding all changed files in staging area before commit)
+$ git commit -m "message"   (for committing something with a message)
+$ git add <specific file>   (for adding specific changed file in the staging area)
+$ git commit -a -m "Direct Commit"  (it will commit for all the 'tracked files' skipping the staging area but it will not commit the 'utracked file')
+$ git commit --ammend     (to change the commits)
+$ git reset HEAD <file>   (to unstage the stagged file)
+$ git checkout -- <file>   (to go to the prev. commit stage of the file) [don't work in staging area]
+$ git checkout -f   (to go to prev. commit)
+
+
+						CHECKING COMMITS HISTORY
+$ git log    (for checking commit history)
+$ git log - p (for detailed commits)
+$ git log --stat  (commit overviews)
+$ git log --pretty=oneline
+$ git log ---pretty=short/long
+
+
+						KILLING REPO
+
+
+$ rm -rf .git  (for killing the git repo) 
+$ git rm --cached <filename> (for untracking files; imp while adding it to git ignore)[it will ot delete the file]
+
+								
+
+						GIT IGNORE
+
+$ touch .gitignore   (for creating the .gitignore file)
+		    1> *.log (ignore all .log files)
+		    2> <specific file> (ignore the specific file/folder)
+		    3>  paths can alos be added
+
+Git by-default ignore empty folder or files
+
+						GIT DIFFERENCES
+
+$ git diff     			  (compare working directory with the staging area)
+$ git diff --staged 		 (compare staging area with the previous commits)
+
+
+						GIT FILE MANIPULATION
+
+$ git rm <filename>  			(for deleting <file> and also adding it to the staging area)
+$ git mv <prev file name> <new file name>  (for renaming the file and also adding it to the staging area)
+
+						WORKING WITH REMOTE
+$ git remote add origin <url>
+$ git push -u origin master
